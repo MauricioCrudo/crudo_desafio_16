@@ -1,0 +1,25 @@
+ <div class="flex-wrap">
+        {{> header }}
+        <form id="products-form" >
+            <label for="title">Nombre</label>
+            <input id="title-input" required type="text" name="title">
+            <label  for="price">Precio</label>
+            <input id="price-input" required type="number" name="price">
+            <label for="thumbnail">Thumbnail</label>
+            <input required type="text" name="thumbnail" id="thumbnail-input">
+            <input type="submit">
+        </form>
+        <div class="product-list hidden" id="product-list">
+            <h2 >Nuevos Items</h2>
+            <table id="products-table">
+                <tr>
+                    <th>title</th>
+                    <th>Precio</th>
+                    <th>Thumbnail</th>
+                </tr>
+            </table>
+        </div>
+        <a href="/productos">Ir a productos</a>
+        {{>chat}}
+    </>
+{{> footer }}

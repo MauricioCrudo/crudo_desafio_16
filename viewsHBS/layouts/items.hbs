@@ -1,0 +1,13 @@
+
+{{> header }}
+<h3> productos: </h3>
+<ul>
+    {{#each content}}
+    <li>
+        {{this.title}}  <br>
+        ${{this.price}}
+    </li>
+    {{/each}}
+</ul>
+<a href="/">Volver al formulario</a>
+{{> footer }}

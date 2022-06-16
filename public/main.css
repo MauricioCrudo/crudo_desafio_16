@@ -1,0 +1,23 @@
+.flex-wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 1000px;
+}
+footer {
+	display: flex;
+	justify-content: flex-end;
+}
+.chat-wrapper {
+	margin: 20px;
+	padding: 10px;
+	border: solid black;
+}
+.hidden {
+	display: none;
+}

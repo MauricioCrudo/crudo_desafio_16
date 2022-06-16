@@ -1,0 +1,20 @@
+[
+  {
+    "title": "producto  1",
+    "price": 1650,
+    "thumbnail": "yahoo",
+    "id": 1
+  },
+  {
+    "title": "producto 2",
+    "price": 212,
+    "thumbnail": "32132",
+    "id": 2
+  },
+  {
+    "title": "producto desde pug",
+    "price": "1234",
+    "thumbnail": "desde pug",
+    "id": 3
+  }
+]
